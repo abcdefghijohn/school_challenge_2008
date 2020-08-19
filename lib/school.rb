@@ -28,4 +28,10 @@ class School
       name.capitalize
     end
   end
+
+  def convert_end_time_to_clock_time
+    time = end_time.slice(0,2).to_i
+    clock_time = time - 12
+    "#{clock_time}:00"
+  end
 end
