@@ -16,4 +16,5 @@ class School
     finish = time + @hours_in_school_day
     "#{finish}:00"
   end
+
 end
