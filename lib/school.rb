@@ -8,6 +8,12 @@ class School
   end
 
   def add_student_name(name)
-    @student_names << name 
+    @student_names << name
+  end
+
+  def end_time
+    time = @start_time.slice(0,2).to_i
+    finish = time + @hours_in_school_day
+    "#{finish}:00"
   end
 end
