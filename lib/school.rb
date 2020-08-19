@@ -22,4 +22,5 @@ class School
       true
     end
   end
+
 end
